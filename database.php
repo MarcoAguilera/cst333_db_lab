@@ -3,7 +3,7 @@ function getDatabaseConnection() {
     $host = "us-cdbr-iron-east-05.cleardb.net";
     $username = "b3c9f3fedc71f8";
     $password = "78f0075c";
-    $dbname = "shoppingcart"; 
+    $dbname = "heroku_9b3143d4cc429cd"; 
     $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
     $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
